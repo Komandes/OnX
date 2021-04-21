@@ -1,0 +1,16 @@
+C:\Users\AREK\source\repos\OnX\OnX\bin\Debug\netcoreapp3.1\OnX.exe
+C:\Users\AREK\source\repos\OnX\OnX\bin\Debug\netcoreapp3.1\OnX.deps.json
+C:\Users\AREK\source\repos\OnX\OnX\bin\Debug\netcoreapp3.1\OnX.runtimeconfig.json
+C:\Users\AREK\source\repos\OnX\OnX\bin\Debug\netcoreapp3.1\OnX.runtimeconfig.dev.json
+C:\Users\AREK\source\repos\OnX\OnX\bin\Debug\netcoreapp3.1\OnX.dll
+C:\Users\AREK\source\repos\OnX\OnX\bin\Debug\netcoreapp3.1\OnX.pdb
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.csprojAssemblyReference.cache
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.Form1.resources
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.csproj.GenerateResource.cache
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.AssemblyInfoInputs.cache
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.AssemblyInfo.cs
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.csproj.CoreCompileInputs.cache
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.dll
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.pdb
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.genruntimeconfig.cache
+C:\Users\AREK\source\repos\OnX\OnX\obj\Debug\netcoreapp3.1\OnX.Form2.resources
