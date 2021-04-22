@@ -59,7 +59,7 @@ namespace OnX
             this.tableLayoutPanel1.Controls.Add(this.TR, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.TC, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.TL, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(412, 84);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(27, 170);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -170,7 +170,7 @@ namespace OnX
             // Players
             // 
             this.Players.AutoSize = true;
-            this.Players.Location = new System.Drawing.Point(412, 56);
+            this.Players.Location = new System.Drawing.Point(12, 130);
             this.Players.Name = "Players";
             this.Players.Size = new System.Drawing.Size(70, 15);
             this.Players.TabIndex = 1;
@@ -179,7 +179,7 @@ namespace OnX
             // PlayerTurn
             // 
             this.PlayerTurn.AutoSize = true;
-            this.PlayerTurn.Location = new System.Drawing.Point(489, 56);
+            this.PlayerTurn.Location = new System.Drawing.Point(89, 130);
             this.PlayerTurn.Name = "PlayerTurn";
             this.PlayerTurn.Size = new System.Drawing.Size(0, 15);
             this.PlayerTurn.TabIndex = 2;
@@ -188,7 +188,7 @@ namespace OnX
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(346, 450);
             this.Controls.Add(this.PlayerTurn);
             this.Controls.Add(this.Players);
             this.Controls.Add(this.tableLayoutPanel1);

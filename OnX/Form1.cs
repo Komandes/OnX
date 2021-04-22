@@ -40,7 +40,13 @@ namespace OnX
                 senderButton.Text = "O";
                 currentPlayer = CurrentPlayer.Cross;
             }
-            victoryCondition();
+
+            if (victoryCondition())
+                ShowWinner();
+            ChangeLabel();
+
+
+
             ChangeLabel();
         }
         public void ChangeLabel()
@@ -54,25 +60,64 @@ namespace OnX
                     PlayerTurn.Text = "Kółko";
                 }
             }
-        public void victoryCondition()
+        public bool victoryCondition()
         {
-            if (String.Compare(TL.Text, ML.Text) == 0 && String.Compare(ML.Text, BL.Text) == 0)
+            if (String.Compare(TL.Text, ML.Text) == 0 && String.Compare(ML.Text, BL.Text) == 0 && String.Compare(ML.Text, "") != 0)
             {
-                Form2 victoryScreen = new Form2();
-                victoryScreen.winner = TL.Text;
-                victoryScreen.Show();
+                return true;
             }
+
+            if (String.Compare(TC.Text, MC.Text) == 0 && String.Compare(MC.Text, BC.Text) == 0 && String.Compare(MC.Text, "") != 0)
+            {
+                return true;
+            }
+
+            if (String.Compare(TR.Text, MR.Text) == 0 && String.Compare(MR.Text, BR.Text) == 0 && String.Compare(MR.Text, "") != 0)
+            {
+                return true;
+            }
+
+            if (String.Compare(TL.Text, TC.Text) == 0 && String.Compare(TC.Text, TR.Text) == 0 && String.Compare(TC.Text, "") != 0)
+            {
+                return true;
+            }
+
+            if (String.Compare(ML.Text, MC.Text) == 0 && String.Compare(MC.Text, MR.Text) == 0 && String.Compare(MC.Text, "") != 0)
+            {
+                return true;
+            }
+            if (String.Compare(BL.Text, BC.Text) == 0 && String.Compare(BC.Text, BR.Text) == 0 && String.Compare(BC.Text, "") != 0)
+            {
+                return true;
+            }
+            if (String.Compare(TL.Text, MC.Text) == 0 && String.Compare(MC.Text, BR.Text) == 0 && String.Compare(MC.Text, "") != 0)
+            {
+                return true;
+            }
+            if (String.Compare(TR.Text, MC.Text) == 0 && String.Compare(MC.Text, BL.Text) == 0 && String.Compare(MC.Text, "") != 0)
+            {
+                return true;
+            }
+            return false;
+
         }
 
+        public void ShowWinner()
+         {
+            Form2 victoryScreen = new Form2(this);
+            victoryScreen.winner = PlayerTurn.Text;
+            victoryScreen.Show();
+        }
         public void ClearBoard()
         {
-            TableLayoutControlCollection[] buttons = tableLayoutPanel1.Controls;
+            TableLayoutControlCollection buttons = tableLayoutPanel1.Controls;
 
             for(int i = 0; i < buttons.Count; i++)
             {
-                if(buttons[i] is Button)
-                    buttons[i].Text = ""
+                if (buttons[i] is Button)
+                    buttons[i].Text = "";
             }
+            currentPlayer = CurrentPlayer.Cross;
         }
     }
 }

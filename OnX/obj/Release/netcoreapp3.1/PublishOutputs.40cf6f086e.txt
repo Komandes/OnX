@@ -1,0 +1,5 @@
+C:\Users\AREK\source\repos\OnX\OnX\bin\Release\netcoreapp3.1\publish\OnX.exe
+C:\Users\AREK\source\repos\OnX\OnX\bin\Release\netcoreapp3.1\publish\OnX.dll
+C:\Users\AREK\source\repos\OnX\OnX\bin\Release\netcoreapp3.1\publish\OnX.deps.json
+C:\Users\AREK\source\repos\OnX\OnX\bin\Release\netcoreapp3.1\publish\OnX.runtimeconfig.json
+C:\Users\AREK\source\repos\OnX\OnX\bin\Release\netcoreapp3.1\publish\OnX.pdb

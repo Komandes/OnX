@@ -40,9 +40,9 @@ namespace OnX
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 33F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(56, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(558, 60);
+            this.label1.Size = new System.Drawing.Size(539, 60);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Gratulacje urzytkowniku";
+            this.label1.Text = "Gratulacje użytkowniku";
             // 
             // WinnerLabel
             // 

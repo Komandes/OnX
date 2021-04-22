@@ -11,8 +11,10 @@ namespace OnX
     public partial class Form2 : Form
     {
         public string winner;
-        public Form2()
+        private Form1 board;
+        public Form2(Form1 b)
         {
+            board = b;
             InitializeComponent();
         }
 
@@ -23,6 +25,7 @@ namespace OnX
 
         private void Nagroda_Click(object sender, EventArgs e)
         {
+            board.ClearBoard();
             this.Close();
         }
     }
